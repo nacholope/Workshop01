@@ -1,0 +1,133 @@
+@charset "UTF-8";
+h1.display-text1 {
+  font-family: ‘Merriweather’;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 1.3em/68px;
+}
+
+h1.display-text2 {
+  font-family: ‘Merriweather’;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 1.3em/52px;
+}
+
+h1 {
+  font-family: ‘Merriweather’;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.3em/52px;
+}
+
+h2 {
+  font-family: ‘Merriweather’;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.3em/39px;
+}
+
+h3 {
+  font-family: ‘Merriweather’;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.3em/26px;
+}
+
+h4 {
+  font-family: ‘Merriweather’;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1.3em/22px;
+}
+
+.navbar {
+  background-color: #01579B;
+  background-color: #304459;
+  background-color: #112e51;
+  background-color: inherit;
+}
+
+.navbar-brand {
+  height: 145px;
+  line-height: 145px;
+  padding-top: 0px;
+}
+
+.navbar-nav li a h3 {
+  height: 80px;
+  line-height: 80px;
+  padding-top: 0px;
+}
+
+nav a {
+  color: white;
+}
+
+nav a.navbar-brand:hover {
+  color: orange;
+}
+
+nav li a.scroll-link:focus {
+  color: inherit;
+  background-color: inherit;
+}
+
+nav li a.scroll-link:hover {
+  display: inline-block;
+  color: white;
+  background-color: inherit;
+  box-shadow: inset 0px -2px white;
+}
+
+body {
+  background-color: #494440;
+}
+
+.form {
+  float: none;
+  margin: 0 auto;
+  width: 25%;
+  color: #02bfe7;
+}
+
+input {
+  margin-top: 0px;
+}
+
+.btn-tight {
+  margin-top: 20px;
+  background: none;
+  padding: 8px 40px;
+  border: 2px solid #9bdaf1;
+  color: #9bdaf1;
+}
+
+.btn-tight:hover {
+  color: #fad980;
+  border-color: #f9c642;
+}
+#login{
+  text-align: center;
+  margin-top: 15%;
+}
+#login h1{
+  color: #9bdaf1;
+}
+#register {
+  width: 100%;
+}
+#register .form-control {
+  float: none;
+  margin: 0 auto;
+  width: 80%;
+  color: #212121;
+}
+#register label {
+  color: #e1f3f8;
+}
+
+.welcome{
+  color: white;
+  text-align: center;
+}

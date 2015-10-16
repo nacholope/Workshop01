@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Probando</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    <script type="text/javascript">
+
+        function containsPepito(txt){
+            if(txt === "pepito"){
+                return true;
+            }
+            if(txt.indexOf("pepito") != -1)
+                return true;
+            return false
+        }
+        var isValid = function(){
+            return containsPepito(document.getElementById("username").value);
+        };
+    </script>
+</head>
+
+<body>
+<div class="container">
+    <div class="col-md-4 col-md-offset-4 " id="login">
+        <h1 class="text-center">Log In</h1>
+
+        <form action="index.html" onsubmit="return isValid();">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control text-center" name="username" id="username"
+                           placeholder="username">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control text-center" name="password" id="password"
+                           placeholder="password">
+                </div>
+            </div>
+            <input type="submit" value="Log In" class="btn btn-tight">
+        </form>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+
+</html>
